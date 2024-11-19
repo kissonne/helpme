@@ -1,0 +1,29 @@
+.knop1{
+    background-color: #000000;
+    border: none;
+}
+html, body {
+    height: 100%;
+}
+body{
+    min-width: 320px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #4A614D;
+      
+}
+.form1{
+    text-align: center;
+    background-color: #4A614D;
+    padding: 10%;
+    color: rgb(255, 255, 255);
+}
+
+.lala{
+    text-align: center;
+}
+
+
+
+.knop1{
+    color: white;
+}
