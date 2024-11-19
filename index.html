@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <img class="navbar-brand" src="img/logo.svg"></img>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" aria-expanded="false" aria-label="Переключатель навигации">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-5">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Коллекции
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Действие</a></li>
+                          <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                          <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                        </ul>
+                      </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Где купить</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      О нас
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="index2.html">О компании</a></li>
+                      <li><a class="dropdown-item" href="index4.html">Проекты</a></li>
+                      <li><a class="dropdown-item" href="#">оааоа</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Полезное
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Действие</a></li>
+                      <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                      <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index1.html">Вход/Регистрация</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+            
+          </nav>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav ms-5">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Коллекции
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Действие</a></li>
+                      <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                      <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                    </ul>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Где купить</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  О нас
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="index2.html">О компании</a></li>
+                  <li><a class="dropdown-item" href="index4.html">Проекты</a></li>
+                  <li><a class="dropdown-item" href="#">оааоа</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Полезное
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Действие</a></li>
+                  <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                  <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index1.html">Вход/Регистрация</a>
+              </li>
+              
+            </ul>
+            </div>
+          </div>
+          <div>
+
+          </div>
+          
+    </header>
+
+
+    <main>
+      <div >
+        <img src="img/img1.png" alt="" width="100%">
+      </div>
+
+
+
+      <div class="container-xxl !direction !spacing">
+       
+        <!-- Кнопка-триггер модального окна -->
+<button type="button" class="btn knop1" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  найди свою фактуру
+</button>
+
+<!-- Модальное окно -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Lorem</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+      </div>
+      <div class="modal-body">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolorem debitis ullam maxime doloribus, voluptatibus unde ipsam nisi! Nulla ducimus quis quos! Consequuntur quam laboriosam voluptatum dolor illo quas sequi.
+      </div>
+      
+    </div>
+  </div>
+</div>
+      </div>
+
+
+
+      
+
+
+
+
+      
+<div class="parent1">
+  <div class="ddiv1"><img src="img/img2.png" alt="" width="100%"></div>
+  <div class="ddiv2"><img src="img/img3.png" alt="" width="100%"></div>
+  <div class="ddiv3"><img src="img/img4.png" alt="" width="100%"></div>
+  <div class="ddiv4"><img src="img/img5.png" alt="" width="100%"></div>
+  <div class="ddiv5"><img src="img/img6.png" alt="" width="100%"></div>
+  <div class="ddiv6 tete"><b>Антивандальные</b> <br> <br> Обоям не страшны <br> механические повреждения, в <br> том числе и когти домашних <br> животных</div>
+  <div class="ddiv7 tete"><b>Гипоаллергенные</b> <br> <br>Обои не вызывают аллергию и <br>сохраняют баланс влажности в <br> помещении</div>
+  <div class="ddiv8 tete"><b>Экологичные</b> <br > <br>Обои на 100% состоят из <br> натуральных природных <br> материалов</div>
+  <div class="ddiv9 tete"><b>Защищают</b> <br> <br>Обои отлично сдерживают <br> образование трещин на стенах  <br>и идеально подходят для <br> новостроек</div>
+  <div class="ddiv10 tete"><b>Можно мыть</b> <br> <br>Обои не только можно мыть с <br> чистящими средствами, но и  <br>использовать их в помещениях <br> с повышенной влажностью</div>
+</div>
+  
+
+
+
+
+
+<div></div>
+      <div class=" okno container-sm !direction !spacing">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/img7.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/img8.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/img9.png" class="d-block w-100" alt="...">
+            </div>
+      
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Предыдущий</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Следующий</span>
+          </button>
+        </div>
+      </div>
+
+
+
+
+
+
+<div class="okno1 container-xxl !direction !spacing">
+  <div class="container-xl !direction !spacing">
+    <nav>
+      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
+        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</button>
+        <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>
+      </div>
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+        <img class="img2" src="img/img2.png" alt="" width="30%">
+        <p class="timg">We care about New Zealand children, and we want to support our community by providing our children in need with necessary vitamins to improve. We care about New Zealand children, and we want to support our community by providing our children in need with necessary vitamins to improve. We care about New Zealand children, and we want to support our community by providing our children in need with necessary vitamins to improve. We care about New Zealand children, and we want to support our community by providing our children in need with necessary vitamins to improve.</p>
+      </div>
+  
+      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+        <img class="img2" src="img/img3.png" alt="" width="30%">
+        <p class="timg">We care about New Zealand children, and we want to support our community by providing our children in need with necessary vitamins to improve. We care about New Zealand children, and we want to support our community by providing our children in need with necessary vitamins to improve. We care about New Zealand children, and we want to support our community by providing our children in need with necessary vitamins to improve. We care about New Zealand children, and we want to support our community by providing our children in need with necessary vitamins to improve.</p>
+      </div>
+      <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"><img class="img2" src="img/img4.png" alt="" width="30%">
+        <p class="timg">We care about New Zealand children, and we want to support our community by providing our children in need with necessary vitamins to improve. We care about New Zealand children, and we want to support our community by providing our children in need with necessary vitamins to improve. We care about New Zealand children, and we want to support our community by providing our children in need with necessary vitamins to improve. We care about New Zealand children, and we want to support our community by providing our children in need with necessary vitamins to improve.</p></div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="container-xl !direction !spacing">
+  
+<div class="parent">
+  <div class="div1"><img src="img/img12.png" alt="" width="100%"></div>
+  <div class="div2"><img src="img/img13.png" alt="" width="100%"></div>
+  <div class="div3"><img src="img/img12.png" alt="" width="100%"></div>
+  <div class="div4"><img src="img/img13.png" alt="" width="100%"></div>
+  <div class="div5"><img src="img/img12.png" alt="" width="100%"></div>
+  <div class="div6"><img src="img/img13.png" alt="" width="100%"></div>
+</div>
+  
+</div>
+
+
+
+
+      
+    </main>
+
+
+    
+      <!-- Footer -->
+      <footer class="fofo text-center text-md-start ">
+        <!-- Grid container -->
+        <div class="container p-4 lala">
+          <!--Grid row-->
+          <div class="row ">
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase"><img class="foot" src="img/logo.svg" alt=""></h5>
+    
+              
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              
+    
+              <ul class="list-unstyled mb-0 tex">
+                <li>
+                  <a href="#!" class="text-body">INSTAGRAM</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-body">VK</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-body">TELEGRAM</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-body">FACEBOOK</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+    
+            
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+    
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: #F8F9FA;">
+          © 2020 Copyright:
+          <a class="text-body" href="https://mdbootstrap.com/">BauTexDesign.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+    
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"> </script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
