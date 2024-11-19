@@ -1,0 +1,121 @@
+html, body {
+    height: 100%;
+}
+body{
+    min-width: 320px;
+    font-family: "Montserrat", sans-serif;
+    
+      
+}
+.numder{
+    margin-top: -20vh;
+}
+.knop1{
+    background-color: #4A614D;
+    color: white;
+    margin-top: -20vw;
+    margin-left: 20vw;
+    font-size: 1.5vw;
+}
+
+
+
+
+.parent1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 8px;
+}
+    
+
+
+
+
+
+.ddiv6 {
+    grid-column-start: 5;
+    grid-row-start: 2;
+}
+
+.ddiv7 {
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+
+.ddiv8 {
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.ddiv9 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.ddiv10 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+        
+
+
+
+.text1{
+    text-align: center;
+}
+
+
+.tete{
+    text-align: center;
+}
+
+.okno1{
+    margin-top: 10%;
+}
+
+
+.parent {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 8px;
+}
+    
+
+
+
+.div4 {
+    grid-row-start: 2;
+}
+
+.div5 {
+    grid-row-start: 2;
+}
+
+.div6 {
+    grid-row-start: 2;
+}
+         
+
+
+
+
+
+
+.lala{
+    
+    margin-top: 10%;
+}
+
+.foot{
+    margin-top: 6%;
+}
+
+.tex{
+    margin-top: 4%;
+}
+.fofo{
+    background-color: #F8F9FA;
+}
